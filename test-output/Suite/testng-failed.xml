@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="script.TestClass2">
+        <methods>
+          <include name="createReport"/>
+          <include name="openApp"/>
+          <include name="testB"/>
+          <include name="publishReport"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestClass2 -->
+      <class name="script.TestClass1">
+        <methods>
+          <include name="createReport"/>
+          <include name="openApp"/>
+          <include name="testA"/>
+          <include name="publishReport"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestClass1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

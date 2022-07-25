@@ -1,0 +1,8 @@
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="script.TestClass1"/>
+      <class name="script.TestClass2"/>
+    </classes>
+  </test> 
+</suite> 
