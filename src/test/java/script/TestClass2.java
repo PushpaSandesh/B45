@@ -12,7 +12,7 @@ public class TestClass2 extends BaseTest
 {
 
 	@Test
-	public void testB() {
+	public void testLogin() {
 		
 		extentTest.log(Status.INFO, "This is TestB");
 	}

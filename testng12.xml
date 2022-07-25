@@ -1,9 +1,0 @@
-
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-    <packages>
-      <package name="script"></package>
-      
-    </packages>
-  </test> 
-</suite> 

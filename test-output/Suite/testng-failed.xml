@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="QA(failed)">
+    <parameter name="property" value="config.properties"/>
     <classes>
       <class name="script.TestClass2">
         <methods>
           <include name="createReport"/>
           <include name="openApp"/>
-          <include name="testB"/>
+          <include name="testLogin"/>
           <include name="publishReport"/>
           <include name="closeApp"/>
         </methods>
@@ -22,5 +23,28 @@
         </methods>
       </class> <!-- script.TestClass1 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- QA(failed) -->
+  <test thread-count="5" parallel="tests" name="Stage1(failed)">
+    <parameter name="property" value="stage1.properties"/>
+    <classes>
+      <class name="script.TestClass2">
+        <methods>
+          <include name="createReport"/>
+          <include name="openApp"/>
+          <include name="testLogin"/>
+          <include name="publishReport"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestClass2 -->
+      <class name="script.TestClass1">
+        <methods>
+          <include name="createReport"/>
+          <include name="openApp"/>
+          <include name="testA"/>
+          <include name="publishReport"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestClass1 -->
+    </classes>
+  </test> <!-- Stage1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
