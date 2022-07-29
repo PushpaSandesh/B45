@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-27T02:31:06Z" name="Default suite" finished-at="2022-07-27T02:31:35Z" duration-ms="28261">
+  <suite started-at="2022-07-29T02:29:23Z" name="Default suite" finished-at="2022-07-29T02:30:12Z" duration-ms="49697">
     <groups>
     </groups>
-    <test started-at="2022-07-27T02:31:06Z" name="Default test" finished-at="2022-07-27T02:31:35Z" duration-ms="28261">
+    <test started-at="2022-07-29T02:29:23Z" name="Default test" finished-at="2022-07-29T02:30:12Z" duration-ms="49697">
       <class name="script.InValidLogin">
-        <test-method is-config="true" signature="createReport()[pri:0, instance:script.InValidLogin@600b90df]" started-at="2022-07-27T02:31:06Z" name="createReport" finished-at="2022-07-27T02:31:06Z" duration-ms="887" status="PASS">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:script.InValidLogin@492691d7]" started-at="2022-07-29T02:29:22Z" name="createReport" finished-at="2022-07-29T02:29:23Z" duration-ms="814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.InValidLogin@600b90df]" started-at="2022-07-27T02:31:06Z" name="openApp" finished-at="2022-07-27T02:31:28Z" duration-ms="21486" status="PASS">
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.InValidLogin@492691d7]" started-at="2022-07-29T02:29:23Z" name="openApp" finished-at="2022-07-29T02:30:02Z" duration-ms="39882" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,22 +27,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testInvalidLogin()[pri:2, instance:script.InValidLogin@600b90df]" started-at="2022-07-27T02:31:28Z" name="testInvalidLogin" finished-at="2022-07-27T02:31:33Z" duration-ms="5277" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InValidLogin@492691d7]" started-at="2022-07-29T02:30:02Z" name="testInvalidLogin" finished-at="2022-07-29T02:30:11Z" duration-ms="8233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InValidLogin@600b90df]" started-at="2022-07-27T02:31:33Z" name="closeApp" finished-at="2022-07-27T02:31:35Z" duration-ms="1449" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InValidLogin@492691d7]" started-at="2022-07-29T02:30:11Z" name="closeApp" finished-at="2022-07-29T02:30:12Z" duration-ms="1548" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InValidLogin.testInvalidLogin()[pri:2, instance:script.InValidLogin@600b90df] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InValidLogin.testInvalidLogin()[pri:2, instance:script.InValidLogin@492691d7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.InValidLogin@600b90df]" started-at="2022-07-27T02:31:35Z" name="publishReport" finished-at="2022-07-27T02:31:35Z" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.InValidLogin@492691d7]" started-at="2022-07-29T02:30:12Z" name="publishReport" finished-at="2022-07-29T02:30:13Z" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->
